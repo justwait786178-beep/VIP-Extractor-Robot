@@ -44,8 +44,8 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/6cf4e930c6bb2e2e
 # BOT_USERNAME = os.environ.get("BOT_USERNAME", "VIP_EXTRACTOR_ROBOT")
 # OWNER_ID = int(os.environ.get("OWNER_ID", "8056915809"))
 # SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1783306092").split()))
-# CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003427507980"))
+# CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003223932452"))
 # MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-# PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003223932452"))
+# PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003427507980"))
 # THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/6cf4e930c6bb2e2e1b68e-d5a8fb7395982d9bba.jpg")
 
