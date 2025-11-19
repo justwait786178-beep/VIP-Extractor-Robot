@@ -20,7 +20,7 @@ async def sumit_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Extractor.modules." + all_module)
 
-    print("» ʙᴏᴛ ᴅᴇᴘʟᴏʏ sᴜᴄᴄᴇssғᴜʟʟʏ ✨ 🎉")
+    print("» ʙᴏᴛ ᴅᴇᴘʟᴏʏ sᴜᴄᴄᴇssғᴜʟʟʏ🎉😘")
     await idle()  # keeps the bot alive
 
     print("» ɢᴏᴏᴅ ʙʏᴇ ! sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ.")
