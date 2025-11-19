@@ -1033,14 +1033,14 @@ async def html_to_text_command(client: Client, message: Message):
                         other_links.append((name, url))
 
         # Create text content
-        text_content = "🎥 Videos:\n"
+        text_content = "📹 Videos:\n"
         for name, url in video_links:
             # URL decode the final URL
             url = requests.utils.unquote(url)
             text_content += f"{name}:{url}\n"
             
         if pdf_links:
-            text_content += "\n📄 PDFs:\n"
+            text_content += "\n💾 PDFs:\n"
             for name, url in pdf_links:
                 url = requests.utils.unquote(url)
                 text_content += f"{name}:{url}\n"
@@ -1051,7 +1051,7 @@ async def html_to_text_command(client: Client, message: Message):
                 url = requests.utils.unquote(url)
                 text_content += f"{name}:{url}\n"
                 
-        text_content += "\n@GodxBots"
+        text_content += "\n@SmartBoy_ApnaMS"
                 
         # Save as text file
         txt_path = file_path.rsplit('.', 1)[0] + '.txt'
@@ -1062,7 +1062,7 @@ async def html_to_text_command(client: Client, message: Message):
         await message.reply_document(
             txt_path,
             thumb=thumb_path if thumb_path else None,
-            caption="<blockquote>✅ HTML converted to text format\n🔓 All URLs have been decoded\n\n🤖 @GodxBots</blockquote>"
+            caption="<blockquote>✅HTML converted to text format\n🔓 All URLs have been decoded\n\n🤖 @SmartBoy_ApnaMS</blockquote>"
         )
         
         # Cleanup
