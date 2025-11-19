@@ -63,7 +63,7 @@ buttons = InlineKeyboardMarkup([
                   InlineKeyboardButton("Aᴘᴘx Aᴘᴘs🤓", callback_data="appxlist")
                 ],
                 [
-                  InlineKeyboardButton("📝Tᴇxᴛ ⟷ HTML", callback_data="converter_")
+                  InlineKeyboardButton("📝Tᴇxᴛ ⟷ HTML😇", callback_data="converter_")
                 ]
               ])
 
@@ -103,7 +103,7 @@ button1 = [
                 ],
                 [
                     InlineKeyboardButton("👑 Kᴅ Cᴀᴍᴘᴜs", callback_data="kdlive_"),
-                    InlineKeyboardButton("👑 Uᴛᴋᴀʀsʜ", callback_data="utkarsh_")
+                    InlineKeyboardButton("👑 Uᴛᴋᴀʀsʜ😗", callback_data="utkarsh_")
                     # InlineKeyboardButton("👑 CDS Jᴏᴜʀɴᴇʏ", callback_data="cds_journey")
                 ],
                 [
