@@ -57,13 +57,13 @@ TIMEOUT = 300  # 5 minutes timeout
 
 buttons = InlineKeyboardMarkup([
                 [
-                  InlineKeyboardButton("Lᴏɢɪɴ/Wɪᴛʜᴏᴜᴛ Lᴏɢɪɴ", callback_data="modes_")
+                  InlineKeyboardButton("Lᴏɢɪɴ/Wɪᴛʜᴏᴜᴛ Lᴏɢɪɴ😘", callback_data="modes_")
                 ],[
-                  InlineKeyboardButton("🔍 Fɪɴᴅ Aᴘɪ", callback_data="findapi_"),
-                  InlineKeyboardButton("📓 Aᴘᴘx Aᴘᴘs", callback_data="appxlist")
+                  InlineKeyboardButton("Fɪɴᴅ Aᴘɪ🧐", callback_data="findapi_"),
+                  InlineKeyboardButton("Aᴘᴘx Aᴘᴘs🤓", callback_data="appxlist")
                 ],
                 [
-                  InlineKeyboardButton("📝 Tᴇxᴛ ⟷ HTML", callback_data="converter_")
+                  InlineKeyboardButton("📝Tᴇxᴛ ⟷ HTML", callback_data="converter_")
                 ]
               ])
 
@@ -79,8 +79,8 @@ modes_button = [[
 
 
 custom_button = [[
-                  InlineKeyboardButton("⚡ Pᴡ ⚡", callback_data="pwwp"),
-                  InlineKeyboardButton("🔮 Aᴘᴘx 🔮", callback_data="appxwp"),
+                  InlineKeyboardButton(" PW😘", callback_data="pwwp"),
+                  InlineKeyboardButton("Aᴘᴘx😍", callback_data="appxwp"),
                 ],[
                   InlineKeyboardButton("🎯 CʟᴀssPʟᴜs 🎯", callback_data="cpwp")
                   # InlineKeyboardButton("🎓 CDS Jᴏᴜʀɴᴇʏ 🎓", callback_data="cds_journey_free")
@@ -98,7 +98,7 @@ button1 = [
                     InlineKeyboardButton("👑 Kʜᴀɴ Gs", callback_data="khan_")
                 ],
                 [
-                    InlineKeyboardButton("👑 Pʜʏsɪᴄs Wᴀʟʟᴀʜ", callback_data="pw_"),
+                    InlineKeyboardButton("👑 Pʜʏsɪᴄs Wᴀʟʟᴀʜ😘", callback_data="pw_"),
                     InlineKeyboardButton("👑 Sᴛᴜᴅʏ IQ", callback_data="iq_")
                 ],
                 [
@@ -383,7 +383,7 @@ async def pwwp_callback(client, callback_query):
     try:
         # Send initial processing message
         processing_msg = await callback_query.message.reply_text(
-            "⏳ Starting process... Please wait  - **DONT LOGIN WITH PHONE NUMBER, It Leads to ban your account of PW**"
+            "⏳ Starting process... Please wait😇  - **Bot Made By : @SmartBoy_ApnaMS**"
         )
         
         user_id = callback_query.from_user.id
@@ -741,10 +741,10 @@ async def handle_callback(client, query):
 
     elif query.data == "html2txt_":
         await query.message.edit_text(
-            "**📄 HTML to Text Converter**\n\n"
+            "**📄 HTML to Text Converter🤩**\n\n"
             "**<blockquote>Convert HTML files back to text format with decoded URLs.</blockquote>**\n\n"
             "**How to use:**\n"
-            "• Send an HTML file directly\n"
+            "• Send an HTML file directly😉\n"
             "• Or use command `/html2txt` with HTML file\n"
             "• Get back a text file with all extracted links\n\n"
             "**Features:**\n"
