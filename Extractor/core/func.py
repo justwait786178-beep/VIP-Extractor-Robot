@@ -75,7 +75,7 @@ async def subscribe(app, message):
 
                 # 2. Send the invite message
                 sent = await message.reply_photo(
-                    photo="https://telegra.ph/file/b7a933f423c153f866699.jpg",
+                    photo="https://graph.org/file/b9f4ac553ba9975d7310d-ceca3a3be736f769a1.jpg",
                     caption=script.FORCE_MSG.format(message.from_user.mention),
                     reply_markup=InlineKeyboardMarkup([[
                         InlineKeyboardButton("🤖 ɴᴇᴇᴅ ᴀᴘᴘʀᴏᴠᴀʟ ᴛᴏ ᴊᴏɪɴ 🤖", url=link)
@@ -102,7 +102,7 @@ async def subscribe(app, message):
                 await message.reply_text(
                     "❗ Please join our updates channel to use the bot.",
                     reply_markup=InlineKeyboardMarkup([[
-                        InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/UGBotx")
+                        InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/+X8WRThCvGPowNWZl")
                     ]])
                 )
             return 1
