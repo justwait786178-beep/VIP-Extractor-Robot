@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Bot is running on Render!"
+    return "Bot is running on Render Baby😘"
 
 def run_flask():
     port = int(os.environ.get("PORT", 10000))  # Render requires a port
