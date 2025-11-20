@@ -32,7 +32,7 @@ UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
 ADMIN_BOT_USERNAME = "VIP_EXTRACTOR_ROBOT" #without @
 
-THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/6cf4e930c6bb2e2e1b68e-d5a8fb7395982d9bba.jpg")
+THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/29dfb41748ec7561eac20-45780a2f354a627bda.jpg")
 
 
 
@@ -47,5 +47,5 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/6cf4e930c6bb2e2e
 # CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003223932452"))
 # MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003223932452"))
-# THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/6cf4e930c6bb2e2e1b68e-d5a8fb7395982d9bba.jpg")
+# THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/29dfb41748ec7561eac20-45780a2f354a627bda.jpg")
 
