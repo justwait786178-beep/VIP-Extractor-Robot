@@ -15,14 +15,14 @@ BOT_TEXT = "VIP EXTRACTOR ROBOT"
 OWNER_ID = int(os.environ.get("OWNER_ID", "8056915809"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003223932452"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003419788629"))
 
 # //FORCE_CHANNEL_ID
 CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1003223932452")) 
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://besib69802:YMOfgvnyjbRgW5qt@cluster0.yzzu2gn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003223932452"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003407497188"))
 # -----------------------------------------------
 join = '<a href="https://t.me/Vip_Extractor_info">JOIN BACKUP😚</a>'
 # -----------------------------------------------
@@ -44,8 +44,8 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/29dfb41748ec7561
 # BOT_USERNAME = os.environ.get("BOT_USERNAME", "VIP_EXTRACTOR_ROBOT")
 # OWNER_ID = int(os.environ.get("OWNER_ID", "8056915809"))
 # SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1783306092").split()))
-# CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003223932452"))
+# CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003419788629"))
 # MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-# PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003223932452"))
+# PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003407497188"))
 # THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/29dfb41748ec7561eac20-45780a2f354a627bda.jpg")
 
